@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:STSSolution"
+             x:Class="STSSolution.MainPage"
+             NavigationPage.HasNavigationBar="False"   
+             BackgroundImage="Veracruz_300x500.jpg">
+  
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout VerticalOptions="EndAndExpand">
+
+                <Button x:Name="Inicios_bt"
+                    Text="INICIAR SESION"
+                    BorderRadius="100"
+                    FontSize="Medium"
+                    BorderWidth="2"
+                    HeightRequest="40"
+                    WidthRequest="200"
+                    TextColor="White"
+                    BorderColor="White"
+                    BackgroundColor="#062456"
+                    Clicked="login_btn"
+                    />
+
+                <Button x:Name="Registrarse_bt"
+                Text="REGISTRARSE"
+                BorderRadius="100"
+                FontSize="Medium"
+                BorderWidth="2"
+                HeightRequest="40"
+                WidthRequest="200"
+                TextColor="White"
+                BorderColor="White"
+                BackgroundColor="#062456"
+                Clicked="Registrarse_btn"/>
+
+
+
+                <Button x:Name="ResetPass_btn"
+                Text="¡¡Has Olvidado Tu Contraseña!!"
+                BackgroundColor="Transparent"
+                TextColor="Black"
+                HorizontalOptions="Center"
+                Clicked="restaurar_btn"/>
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+
+</ContentPage>

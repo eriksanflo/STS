@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="STSSolution.Views.Register"
+             Title="Registrarse">
+    <ContentPage.Content>
+        <ScrollView>
+
+            <StackLayout>
+
+                <StackLayout   VerticalOptions="StartAndExpand"
+                       HorizontalOptions="StartAndExpand"
+                       WidthRequest="350"
+                       BackgroundColor="#f6f7f8"
+                       Orientation="Horizontal">
+
+                    <Image Source="User_20x30.png"
+                   WidthRequest="40"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"/>
+
+                    <Entry Keyboard="Text"
+                   TextColor="Black"
+                   Placeholder="Introduce tu Nombre"
+                   HorizontalOptions="StartAndExpand"
+                   HeightRequest="50" />
+                </StackLayout>
+
+                <StackLayout   VerticalOptions="StartAndExpand"
+                       HorizontalOptions="StartAndExpand"
+                       WidthRequest="350"
+                       BackgroundColor="#f6f7f8"
+                       Orientation="Horizontal">
+
+                    <Image Source="Smartphone_20x30.png"
+                   WidthRequest="40"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"/>
+
+                    <Entry Keyboard="Telephone"
+                   TextColor="Black"
+                   Placeholder="Introduce tu Teléfono"
+                   HorizontalOptions="StartAndExpand"
+                   HeightRequest="50" />
+                </StackLayout>
+
+                <StackLayout   VerticalOptions="StartAndExpand"
+                       HorizontalOptions="StartAndExpand"
+                       WidthRequest="350"
+                       BackgroundColor="#f6f7f8"
+                       Orientation="Horizontal">
+
+                    <Image Source="Email_30x20.png"
+                   WidthRequest="40"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"/>
+
+                    <Entry Keyboard="Email"
+                   TextColor="Black"
+                   Placeholder="Introduce tu Correo"
+                   HorizontalOptions="StartAndExpand"
+                   HeightRequest="50" />
+                </StackLayout>
+
+                <StackLayout   VerticalOptions="StartAndExpand"
+                       HorizontalOptions="StartAndExpand"
+                       WidthRequest="350"
+                       BackgroundColor="#f6f7f8"
+                       Orientation="Horizontal">
+
+                    <Image Source="Lock_20x30.png"
+                   WidthRequest="40"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"/>
+
+                    <Entry IsPassword="true"
+                   TextColor="Black"
+                   Placeholder="Introduce tu Contraseña"
+                   HorizontalOptions="StartAndExpand"
+                   HeightRequest="50" />
+                </StackLayout>
+
+                <StackLayout   VerticalOptions="StartAndExpand"
+                       HorizontalOptions="StartAndExpand"
+                       WidthRequest="350"
+                       BackgroundColor="#f6f7f8"
+                       Orientation="Horizontal">
+
+                    <Image Source="Lock_20x30.png"
+                   WidthRequest="40"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"/>
+
+                    <Entry IsPassword="true"
+                   TextColor="Black"
+                   Placeholder="Confirmar tu Contraseña"
+                   HorizontalOptions="StartAndExpand"
+                   HeightRequest="50" />
+                </StackLayout>
+
+
+
+                <Button x:Name="AltaUsuario_btn"
+                Text="Alta De Usuario"
+                BorderRadius="100"
+                FontSize="Medium"
+                BorderWidth="2"
+                HeightRequest="40"
+                WidthRequest="200"
+                TextColor="#fbf7f7"
+                BorderColor="White"
+                BackgroundColor="#062456"/>
+
+            </StackLayout>
+
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

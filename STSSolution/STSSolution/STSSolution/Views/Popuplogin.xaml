@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="STSSolution.Views.Popuplogin"
+                 
+             xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup"
+             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+             xmlns:myAnimations="clr-namespace:STSSolution.Animations;assembly=MyProject"
+                 >
+
+    <StackLayout Margin="12"
+                 Padding="50"
+                 Spacing="50"
+                 BackgroundColor="White"
+                 HorizontalOptions="Center"
+                 VerticalOptions="Center">
+        <StackLayout>
+            <Label Text="Email/Teléfono"/>
+            <Entry FontSize="30"
+                   />
+        </StackLayout>
+
+        <StackLayout>
+            <Label Text="Contraseña"/>
+            <Entry FontSize="30"
+                   IsPassword="True"
+                   
+                   />
+        </StackLayout>
+
+
+        <Button x:Name="accesologin_btn"
+                Text="Aceptar"
+                BorderRadius="100"
+                FontSize="Medium"
+                BorderWidth="2" 
+                HeightRequest="40" 
+                WidthRequest="200"  
+                TextColor="White" 
+                BorderColor="White" 
+                BackgroundColor="#062456"
+                Clicked="acceso_btn"/>
+
+    </StackLayout>
+    
+    </pages:PopupPage>
